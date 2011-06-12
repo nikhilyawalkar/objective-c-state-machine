@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6D7D41813A4A7430028D52C /* StateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7D41613A4A7430028D52C /* StateMachine.m */; };
+		D6F1269B139CF6940022B51D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F1269A139CF6940022B51D /* UIKit.framework */; };
+		D6F1269D139CF6940022B51D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F1269C139CF6940022B51D /* Foundation.framework */; };
+		D6F1269F139CF6940022B51D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F1269E139CF6940022B51D /* CoreGraphics.framework */; };
+		D6F126A5139CF6940022B51D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6F126A3139CF6940022B51D /* InfoPlist.strings */; };
+		D6F126A8139CF6940022B51D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F126A7139CF6940022B51D /* main.m */; };
+		D6F126AB139CF6940022B51D /* StateMachineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F126AA139CF6940022B51D /* StateMachineAppDelegate.m */; };
+		D6F126AE139CF6940022B51D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6F126AC139CF6940022B51D /* MainWindow.xib */; };
+		D6F126B1139CF6940022B51D /* StateMachineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F126B0139CF6940022B51D /* StateMachineViewController.m */; };
+		D6F126B4139CF6940022B51D /* StateMachineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6F126B2139CF6940022B51D /* StateMachineViewController.xib */; };
+		D6F126BB139CF6940022B51D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F1269A139CF6940022B51D /* UIKit.framework */; };
+		D6F126BC139CF6940022B51D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F1269C139CF6940022B51D /* Foundation.framework */; };
+		D6F126BD139CF6940022B51D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F1269E139CF6940022B51D /* CoreGraphics.framework */; };
+		D6F126C5139CF6940022B51D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6F126C3139CF6940022B51D /* InfoPlist.strings */; };
+		D6F126C8139CF6940022B51D /* StateMachineTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D6F126C7139CF6940022B51D /* StateMachineTests.h */; };
+		D6F126CA139CF6940022B51D /* StateMachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F126C9139CF6940022B51D /* StateMachineTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6F126BE139CF6940022B51D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F1268D139CF6930022B51D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F12695139CF6940022B51D;
+			remoteInfo = StateMachine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6D7D41613A4A7430028D52C /* StateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateMachine.m; sourceTree = "<group>"; };
+		D6D7D41713A4A7430028D52C /* StateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateMachine.h; sourceTree = "<group>"; };
+		D6F12696139CF6940022B51D /* StateMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F1269A139CF6940022B51D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D6F1269C139CF6940022B51D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6F1269E139CF6940022B51D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D6F126A2139CF6940022B51D /* StateMachine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StateMachine-Info.plist"; sourceTree = "<group>"; };
+		D6F126A4139CF6940022B51D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6F126A6139CF6940022B51D /* StateMachine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StateMachine-Prefix.pch"; sourceTree = "<group>"; };
+		D6F126A7139CF6940022B51D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6F126A9139CF6940022B51D /* StateMachineAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateMachineAppDelegate.h; sourceTree = "<group>"; };
+		D6F126AA139CF6940022B51D /* StateMachineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateMachineAppDelegate.m; sourceTree = "<group>"; };
+		D6F126AD139CF6940022B51D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D6F126AF139CF6940022B51D /* StateMachineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateMachineViewController.h; sourceTree = "<group>"; };
+		D6F126B0139CF6940022B51D /* StateMachineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateMachineViewController.m; sourceTree = "<group>"; };
+		D6F126B3139CF6940022B51D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StateMachineViewController.xib; sourceTree = "<group>"; };
+		D6F126BA139CF6940022B51D /* StateMachineTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateMachineTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F126C2139CF6940022B51D /* StateMachineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StateMachineTests-Info.plist"; sourceTree = "<group>"; };
+		D6F126C4139CF6940022B51D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6F126C6139CF6940022B51D /* StateMachineTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StateMachineTests-Prefix.pch"; sourceTree = "<group>"; };
+		D6F126C7139CF6940022B51D /* StateMachineTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateMachineTests.h; sourceTree = "<group>"; };
+		D6F126C9139CF6940022B51D /* StateMachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateMachineTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6F12693139CF6940022B51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F1269B139CF6940022B51D /* UIKit.framework in Frameworks */,
+				D6F1269D139CF6940022B51D /* Foundation.framework in Frameworks */,
+				D6F1269F139CF6940022B51D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F126B6139CF6940022B51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F126BB139CF6940022B51D /* UIKit.framework in Frameworks */,
+				D6F126BC139CF6940022B51D /* Foundation.framework in Frameworks */,
+				D6F126BD139CF6940022B51D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6F1268B139CF6930022B51D = {
+			isa = PBXGroup;
+			children = (
+				D6F126A0139CF6940022B51D /* StateMachine */,
+				D6F126C0139CF6940022B51D /* StateMachineTests */,
+				D6F12699139CF6940022B51D /* Frameworks */,
+				D6F12697139CF6940022B51D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6F12697139CF6940022B51D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6F12696139CF6940022B51D /* StateMachine.app */,
+				D6F126BA139CF6940022B51D /* StateMachineTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6F12699139CF6940022B51D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6F1269A139CF6940022B51D /* UIKit.framework */,
+				D6F1269C139CF6940022B51D /* Foundation.framework */,
+				D6F1269E139CF6940022B51D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6F126A0139CF6940022B51D /* StateMachine */ = {
+			isa = PBXGroup;
+			children = (
+				D6D7D41613A4A7430028D52C /* StateMachine.m */,
+				D6D7D41713A4A7430028D52C /* StateMachine.h */,
+				D6F126A9139CF6940022B51D /* StateMachineAppDelegate.h */,
+				D6F126AA139CF6940022B51D /* StateMachineAppDelegate.m */,
+				D6F126AC139CF6940022B51D /* MainWindow.xib */,
+				D6F126AF139CF6940022B51D /* StateMachineViewController.h */,
+				D6F126B0139CF6940022B51D /* StateMachineViewController.m */,
+				D6F126B2139CF6940022B51D /* StateMachineViewController.xib */,
+				D6F126A1139CF6940022B51D /* Supporting Files */,
+			);
+			path = StateMachine;
+			sourceTree = "<group>";
+		};
+		D6F126A1139CF6940022B51D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6F126A2139CF6940022B51D /* StateMachine-Info.plist */,
+				D6F126A3139CF6940022B51D /* InfoPlist.strings */,
+				D6F126A6139CF6940022B51D /* StateMachine-Prefix.pch */,
+				D6F126A7139CF6940022B51D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6F126C0139CF6940022B51D /* StateMachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F126C7139CF6940022B51D /* StateMachineTests.h */,
+				D6F126C9139CF6940022B51D /* StateMachineTests.m */,
+				D6F126C1139CF6940022B51D /* Supporting Files */,
+			);
+			path = StateMachineTests;
+			sourceTree = "<group>";
+		};
+		D6F126C1139CF6940022B51D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6F126C2139CF6940022B51D /* StateMachineTests-Info.plist */,
+				D6F126C3139CF6940022B51D /* InfoPlist.strings */,
+				D6F126C6139CF6940022B51D /* StateMachineTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6F12695139CF6940022B51D /* StateMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F126CD139CF6940022B51D /* Build configuration list for PBXNativeTarget "StateMachine" */;
+			buildPhases = (
+				D6F12692139CF6940022B51D /* Sources */,
+				D6F12693139CF6940022B51D /* Frameworks */,
+				D6F12694139CF6940022B51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StateMachine;
+			productName = StateMachine;
+			productReference = D6F12696139CF6940022B51D /* StateMachine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6F126B9139CF6940022B51D /* StateMachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F126D0139CF6940022B51D /* Build configuration list for PBXNativeTarget "StateMachineTests" */;
+			buildPhases = (
+				D6F126B5139CF6940022B51D /* Sources */,
+				D6F126B6139CF6940022B51D /* Frameworks */,
+				D6F126B7139CF6940022B51D /* Resources */,
+				D6F126B8139CF6940022B51D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F126BF139CF6940022B51D /* PBXTargetDependency */,
+			);
+			name = StateMachineTests;
+			productName = StateMachineTests;
+			productReference = D6F126BA139CF6940022B51D /* StateMachineTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6F1268D139CF6930022B51D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D6F12690139CF6930022B51D /* Build configuration list for PBXProject "StateMachine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6F1268B139CF6930022B51D;
+			productRefGroup = D6F12697139CF6940022B51D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6F12695139CF6940022B51D /* StateMachine */,
+				D6F126B9139CF6940022B51D /* StateMachineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6F12694139CF6940022B51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F126A5139CF6940022B51D /* InfoPlist.strings in Resources */,
+				D6F126AE139CF6940022B51D /* MainWindow.xib in Resources */,
+				D6F126B4139CF6940022B51D /* StateMachineViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F126B7139CF6940022B51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F126C5139CF6940022B51D /* InfoPlist.strings in Resources */,
+				D6F126C8139CF6940022B51D /* StateMachineTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D6F126B8139CF6940022B51D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6F12692139CF6940022B51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F126A8139CF6940022B51D /* main.m in Sources */,
+				D6F126AB139CF6940022B51D /* StateMachineAppDelegate.m in Sources */,
+				D6F126B1139CF6940022B51D /* StateMachineViewController.m in Sources */,
+				D6D7D41813A4A7430028D52C /* StateMachine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F126B5139CF6940022B51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F126CA139CF6940022B51D /* StateMachineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6F126BF139CF6940022B51D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F12695139CF6940022B51D /* StateMachine */;
+			targetProxy = D6F126BE139CF6940022B51D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6F126A3139CF6940022B51D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F126A4139CF6940022B51D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6F126AC139CF6940022B51D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F126AD139CF6940022B51D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D6F126B2139CF6940022B51D /* StateMachineViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F126B3139CF6940022B51D /* en */,
+			);
+			name = StateMachineViewController.xib;
+			sourceTree = "<group>";
+		};
+		D6F126C3139CF6940022B51D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F126C4139CF6940022B51D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6F126CB139CF6940022B51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6F126CC139CF6940022B51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D6F126CE139CF6940022B51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StateMachine/StateMachine-Prefix.pch";
+				INFOPLIST_FILE = "StateMachine/StateMachine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D6F126CF139CF6940022B51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StateMachine/StateMachine-Prefix.pch";
+				INFOPLIST_FILE = "StateMachine/StateMachine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D6F126D1139CF6940022B51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StateMachine.app/StateMachine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StateMachineTests/StateMachineTests-Prefix.pch";
+				INFOPLIST_FILE = "StateMachineTests/StateMachineTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D6F126D2139CF6940022B51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StateMachine.app/StateMachine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StateMachineTests/StateMachineTests-Prefix.pch";
+				INFOPLIST_FILE = "StateMachineTests/StateMachineTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6F12690139CF6930022B51D /* Build configuration list for PBXProject "StateMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F126CB139CF6940022B51D /* Debug */,
+				D6F126CC139CF6940022B51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F126CD139CF6940022B51D /* Build configuration list for PBXNativeTarget "StateMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F126CE139CF6940022B51D /* Debug */,
+				D6F126CF139CF6940022B51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F126D0139CF6940022B51D /* Build configuration list for PBXNativeTarget "StateMachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F126D1139CF6940022B51D /* Debug */,
+				D6F126D2139CF6940022B51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6F1268D139CF6930022B51D /* Project object */;
+}
